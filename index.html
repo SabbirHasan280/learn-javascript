@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javascript</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    
+        <section id="javascript">
+            <div class="container">
+                
+<!--html content change-->
+                
+                <h1>my first javascript</h1>
+                
+                <p id="demo">javascript top in the world</p>
+                
+                <button type="button" onclick="document.getElementById('demo').innerHTML='hello bangladesh'">click here</button>
+                
+<!--html content change-->
+                
+<!--Changing the style of an HTML element-->
+                
+                <h2>What Can JavaScript Do?</h2>
+                
+                <p id="demoo">JavaScript can change the style of an HTML element.</p>
+                
+                <button type="button" onclick="document.getElementById('demoo').style .fontSize='50px'">click here</button><br>
+                
+<!--Changing the style of an HTML element-->
+                
+<!--html element hide-->
+                
+                <h1>JavaScript Can Hide HTML Elements</h1>
+                
+                <p id="demooo">JavaScript can change the style of an HTML element.</p>
+                
+                <button type="button" onclick="document.getElementById('demooo').style .display='none'">click here</button><br>
+                
+<!--html element hide-->
+                
+<!--internal javascript-->
+                
+                <h1>my first internal javascript</h1>
+                
+                <p id="demo1"></p>
+                <p id="demo2"></p>
+                
+                <script>
+                    document.getElementById('demo1').innerHTML="first internal javascript 1"
+                    document.getElementById('demo2').innerHTML="first internal javascript 2"
+                </script>
+                    
+<!--internal javascript-->
+                
+<!--internal javascript button-->
+                
+                <h1>my first internal button javascript</h1>
+                
+                <p id="demo3">click the button and change the elment</p>
+                <p id="demo4">click the button and change the elment</p>
+                
+                <button type="button" onclick="myFuntion()">click here</button>
+                
+                <script>
+                    function myFuntion() {
+                        document.getElementById("demo3").innerHTML="change element suscesfull 1";
+                        document.getElementById("demo4").innerHTML="change element suscesfull 2";
+                    }
+                </script>
+                
+<!--internal javascript button-->
+                
+<!--document.getelementbyid("").inner html use-->
+                
+                <h1>inner html use</h1>
+                <p>my first pragraph</p>
+                
+                <p id="demo5"></p>
+                
+                <script>
+                    document.getElementById("demo5").innerHTML="my first javascript";  //{soman soman r cotesonlagbei,r bracket lagbe na}//
+                </script>
+                
+ <!--document.getelementbyid("").inner html use-->
+                
+<!--document.write html use-->
+                
+                <h1>document.write content use</h1>
+                <p>my first pragraph</p>
+                
+                <p id="demo6"></p>
+                
+                <script>
+                    document.write("asad is a good boy");
+                    //{bracket r coteson lagbei,soman soman lagbe na}//
+                </script>
+                
+<!--document.write html use-->
+                
+<!--document.write a button use-->
+                
+                <h1>document.write button use</h1>
+                <p>my first pragraph</p>
+                
+                <button type="button" onclick="document.write('asad')">change</button>
+                
+<!--document.write a button use-->
+                
+<!--window.alert use-->
+                
+                <h1>window alert box</h1>
+                <p>my first pragraph</p>
+                
+                <script>
+                    window.alert('hi asad bro');
+                </script>
+                
+<!--window.alert use-->
+                
+<!--consol.log use-->
+                
+                <h1>window alert box</h1>
+                <p>my first pragraph</p>
+                
+                <script>
+                    console.log('hi asad bro');
+                </script>
+                
+<!--consol.log use-->
+                
+<!--javascript statements-->
+                
+                <h1>javascript statments a variable use</h1>
+                <p>my first variable use</p>
+                <p id="demo7"></p>
+                
+                <script>
+                    
+                    var x, y, z;
+                    x=10;
+                    y=15;
+                    z=x+y;
+                    
+                   document.getElementById('demo7').innerHTML="the value of z is "+z+".";
+                    
+                </script>
+<!--javascript statements-->
+                
+<!--javascript a semicolon dile alada bujay-->
+                
+                <h1>javascript a semicolon dile alada bujay</h1>
+                <p>javascript a semicolon ar bebohar</p>
+                <p id="demo8"></p>
+                
+                <script>
+                    var a , b , c;
+                    a=10; b=5; c=a+b;
+                    
+                    document.getElementById("demo8").innerHTML= c;
+                </script>
+                
+<!--javascript a semicolon dile alada bujay-->
+                
+<!--javascript ar oparetor-->
+                
+                <h1>javascript oparetor</h1>
+                <p>javascript ar oparetor ar char pase space daoya valo</p>
+                <p>oparetor gula hocche (= + - * /);</p>
+                
+<!--javascript ar oparetor-->
+                
+<!--javascript code block-->
+                
+                <h1>code block bolte {} braket ar majhe stetment gula k  bujay</h1>
+                <p>code block ar uddeso hocche stetment gulo k ek sathe buja no ja funtion a dheka jay.</p>
+                
+<!--javascript code block-->
+                
+<!--javascript syntex and stetmant-->
+                
+                <h1>javascript stetmant</h1>
+                <p>javascript stetmant valu,oparetor,expretion,keyword,and comment nia toiri.</p>
+                
+<!--javascript syntex and stetmant-->
+                
+<!--javascript syntext-->
+                
+                <h1>javascript syntext</h1>
+                <p>(var s,y,z) ai gulo k Declare variable bole</p>
+                <p>(x=5;y=8;)ai gulo k asign valu bole</p>
+                <p>(z=x+y)ai gulo k compute valu bole </p>
+                
+<!--javascript syntext-->
+                
+<!--javascript value-->
+                
+                <h1>javascript value</h1>
+                <p>javascript value 2 pokar : 1.fixied value     2.variable value</p>
+                <p>1.fixed value:fixed value k called korte hoy literals dia. ati likhar niom hocche purno songkha dia ba dosomik dia. </p>
+                <p>2.variable value:variable value k called korte hoy variables dia.value songrokkhon korar jonno variables bebohar kora hoy.<br>variable declar kora somoy var bebohar kora hoy.sei variable a man bosanor somoy = dite lage.</p>
+                
+<!--javascript value-->
+<!--javascript expretion-->
+                
+                <h1>javascript expretion</h1>
+                <p>kisu value ,variable, oparetor ar maddhome expretion toiri hoy.ja ekti value nirnoy kore.<br>example:10*10 ati 100 te rupantito hoy.</p>
+<!--javascript expretion-->
+                
+<!--javascript identifire-->
+                
+                <h1>javascript identifire</h1>
+                <p>identifire hocche kono name.</p>
+                <p>javascript a variable,keyword and funtion ar name daoar jonno identifire bebohar kora hoy.</p>
+                
+<!--javascript identifire-->
+<!--                javascript variable-->
+                
+                <h1>javascript variable</h1>
+                <p>javascript variable hocche value rakhar jonno container.<br>{Ex:a,b,c hocche variable}.</p>
+                
+<!--javascript variable-->
+<!--assientment oparator-->
+                <h1>assianmant oparator</h1>
+                <p>(=) ai ta k assianment hisabe bebohar kora hoy.<br>soman soman ar jonno bebohar kora hoy(==) ai ta.</p>
+                
+<!--assientment oparator-->
+                
+            </div>
+        </section>
+        
+        <script src="js/custom.js"></script>
+    </body>
+</html>
