@@ -1,3 +1,16 @@
+/* all common scss start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+li,ol{
+    list-style-type: none;
+}
+.clr {
+    clear: both;
+}
+/* all common css end */
 .container{
     width: 1000px;
     margin: 0 auto;
